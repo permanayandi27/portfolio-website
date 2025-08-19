@@ -1,0 +1,156 @@
+
+
+.berita{
+    grid-column:1/4;
+    background-color:white;
+    margin-top:30px;
+    text-align:center;
+    margin-bottom:10px;
+    
+}
+
+.news-frame{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-column:1/4;
+    padding:3rem;
+    padding-bottom:2.5rem;
+    background-color:white;
+    
+    
+    
+}
+
+.news-column{
+    color:gray;
+    display:grid;
+    padding:.75rem;
+    border-radius:.2rem;
+    max-width:90%;
+    justify-self:center;
+    gap:10px;
+    background-color:hsl(0,0%,90%);
+    line-height:1.5;
+}
+
+.btn-news-container{
+    grid-column:1/4;
+    justify-self:center;
+    margin-top:30px;
+}
+
+.advantages{
+    grid-column:1/4;
+    text-align:center;
+    background-color:white;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+
+
+.copywriting-column img{
+    height:100px;
+}
+
+.copywriting-container, .copywriting-container2{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    background-color:white;
+    grid-column:1/4;
+    
+}
+
+.copywriting-container2{
+    padding-bottom:1.5rem;
+}
+
+.copywriting-column{
+    max-width:90%;
+    
+    display:grid;
+    gap:10px;
+    padding:1rem;
+    justify-items:center;
+    justify-self:center;
+    
+}
+
+.partners{
+    grid-column:1/4;
+    text-align:center;
+    background-color:white;
+    margin-top:30px;
+    
+}
+
+.partners-container{
+    display:flex;
+    grid-column:1/4;
+    justify-content:center;
+    background-color:white;
+    padding:1rem;
+    
+}
+
+.partners-container img{
+    padding:1rem;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:1fr 200px 1fr;
+    grid-column:1/4;
+    color:gray;
+    padding:1rem;
+}
+
+.footer-frame{
+    display:grid;
+    
+    grid-template-rows:1fr 1fr;
+    
+}
+
+.sitemap-lists{
+    list-style:none;
+    display:flex;
+    
+}
+
+.sitemap{
+    margin:0;
+    padding:.25rem;
+    
+
+}
+
+.footer-ahas{
+    
+    margin-left:50px;
+}
+
+.social-icon-footer{
+    display:grid;
+    grid-auto-flow:column;
+    justify-content:center;
+    
+}
+
+.social-icon-footer img{
+    padding:.5rem;
+    cursor:pointer;
+}
+
+.operational-time{
+    display:grid;
+    justify-content:end;
+    grid-template-rows:auto auto;
+}
+
+.operational-time .icon-wa img{
+    margin-right:5px;
+    
+    
+
+}

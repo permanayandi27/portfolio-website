@@ -1,0 +1,145 @@
+.button-container{
+    position:relative;
+}
+
+.btn{
+    --background-hue:120;
+    --background-saturation:50%;
+    --initial-background-lightness:80%;
+    --background-lightness:var(--initial-background-lightness);
+    --border-saturation:calc(var(--background-saturation) - 20%);
+    --border-lightness:calc(var(--background-lightness) - 15%);
+    background-color:hsl(
+        var(--background-hue),
+        var(--background-saturation),
+        var(--background-lightness));
+    border:1px solid hsl(
+        var(--background-hue),
+        var(--border-saturation),
+        var(--border-lightness));
+    padding:.5em 1em;
+    font-size:inherit;
+    font-family:Arial;
+    border-radius:1000px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    --background-lightness:calc(var(--initial-background-lightness) - 10%);
+    background-color:hsl(
+        var(--background-hue),
+        var(--background-saturation),
+        var(--background-lightness));
+    border-color:hsl(
+        var(--background-hue),
+        var(--border-saturation),
+        var(--border-lightness));
+    box-shadow:0 0 5px 0 hsl(
+        var(--background-hue),
+        var(--border-saturation),
+        var(--border-lightness));
+}
+
+.btn:active{
+    --background-lightness:calc(var(--initial-background-lightness) - 15%);
+    background-color:hsl(
+        var(--background-hue),
+        var(--background-saturation),
+        var(--background-lightness));
+    border-color:hsl(
+        var(--background-hue),
+        var(--border-saturation),
+        var(--border-lightness));
+    box-shadow:0 0 5px 0 hsl(
+        var(--background-hue),
+        var(--border-saturation),
+        var(--border-lightness));
+}
+
+.btn.btn-signup{
+    --background-hue:220;
+    --background-saturation:100%;
+    --initial-background-lightness:70%;
+    background-color:hsl(
+        var(--background-hue),
+        var(--background-saturation),
+        var(--background-lightness));
+    color:white;
+}
+
+.btn.btn-rate, .btn.btn-reserve2, .btn.btn-rate-kategori, .btn.btn-reserve-kategori2{
+    --initial-background-lightness:95%;
+    background-color:hsl(
+        var(--background-hue),
+        var(--background-saturation),
+        var(--background-lightness));
+}
+
+.btn.btn-reserve-kategori{
+    position:absolute;
+    left:-80px;
+    
+    
+
+}
+
+
+.btn.btn-reserve2 {
+    position:absolute;
+    left:52.5px;
+    opacity:0;
+    
+    
+}
+
+
+
+.btn.btn-rate-kategori{
+    position:absolute;
+    left:-130px;
+    
+}
+
+
+
+
+.btn.btn-all-reviews, .btn.btn-news, .btn.btn-reserve, .btn.btn-rate.clicked,.btn.btn-reserve-kategori,.btn.btn-rate-kategori.clicked,.btn.btn-reserve-kategori2.clicked{
+    --background-hue:220;
+    --background-saturation:100%;
+    --initial-background-lightness:60%;
+    background-color:hsl(
+        var(--background-hue),
+        var(--background-saturation),
+        var(--background-lightness));
+    color:white;
+}
+
+.btn.btn-rate, .btn.btn-reserve, .btn.btn-reserve2, .btn.btn-rate-kategori, .btn.btn-reserve-kategori, .btn.btn-reserve-kategori2{
+    padding:.2em 0.4em;
+}
+
+.btn.btn-reserve-kategori2{
+    position:absolute;
+    left:-80px;
+    opacity:0;
+    
+}
+
+
+.btn.btn-rate-kategori, .btn.btn-reserve-kategori, .btn.btn-reserve-kategori2{
+    opacity:0;
+}
+
+/*.btn.btn-reserve, .btn.btn-reserve2, .btn.btn-rate{
+    position:absolute;
+    bottom:-5050px;
+}
+*/
+
+
+
+.btn.btn-all-reviews, .btn.btn-news{
+    padding:.75em 1.5em;
+    border-radius:.2em;
+}
+

@@ -1,0 +1,37 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+.nav{
+  display:grid;
+  width:800px;
+  grid-auto-flow: column;
+  border:1px solid black;
+}
+
+#nav{
+  display:grid;
+  grid-auto-flow: row;
+  justify-content: center;
+}
+
+
+
+.links{
+  list-style: none;
+  display:grid;
+  grid-auto-flow: column;
+  
+  
+}
+
+.section{
+  display:grid;
+  height:50vh;
+  
+  grid-auto-flow: row;
+  margin-top:100px;
+  justify-content: center;
+}
