@@ -2821,7 +2821,7 @@ testi();
 
 
 
-
+/*
 const boxData = [{
   number: 1
 },{
@@ -2889,6 +2889,9 @@ setInterval(()=>{
   })
 
   console.log(harga);
+
+*/
+
 
 
 
